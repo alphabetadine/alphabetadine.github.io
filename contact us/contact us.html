@@ -51,7 +51,11 @@
       <!--************************************************************************
     Sidebar starts here. It contains a searchbox, sample ad image and 6 links
     ****************************************************************************-->
-      <input type="text" placeholder="Search">
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+<input name="sitesearch" type="hidden">
+<input autocomplete="on" class="form-control search" name="q" placeholder="Search.." required="required"  type="text">
+<button class="button" type="submit">Search</button>
+</form>
       
       <nav>
         <ul>

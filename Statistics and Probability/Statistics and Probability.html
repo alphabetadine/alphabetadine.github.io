@@ -24,7 +24,11 @@
   <div id="content">
     <div class="notOnDesktop"> 
       <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
-      <input type="text" placeholder="Search">
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+<input name="sitesearch" type="hidden">
+<input autocomplete="on" class="form-control search" name="q" placeholder="Search.." required="required"  type="text">
+<button class="button" type="submit">Search</button>
+</form>
     </div>
     <section id="mainContent"> 
       <!--************************************************************************
@@ -46,8 +50,13 @@ WEB-BASED STRATEGIC INTERVENTION MATERIALS FOR STATISTICS AND PROBABILITY&nbsp;<
       <!--************************************************************************
     Sidebar starts here. It contains a searchbox, sample ad image and 6 links
     ****************************************************************************-->
-      <input type="text" placeholder="Search">
-      		<div id="adimage"><img src="Pictures/arnel picture.jpg" alt=""/></div>
+      <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+<input name="sitesearch" type="hidden">
+<input autocomplete="on" class="form-control search" name="q" placeholder="Search.." required="required"  type="text">
+<button class="button" type="submit">Search</button>
+</form>
+		
+	  <div id="adimage"><img src="Pictures/arnel picture.jpg" alt=""/></div>
       <nav>
         <ul>
                    <li><a href="http://www.facebook.com/arnel.calaro" title="Link">ARNEL's Facebook Profile</a></li>
